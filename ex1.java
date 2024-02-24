@@ -2,7 +2,7 @@ package guvipractice;
 import java.util.Scanner;
 public class ex1 {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in); //getting input
 		int num=sc.nextInt();
 		while(num<=50) {
 			System.out.println(num);
@@ -10,4 +10,5 @@ public class ex1 {
 		}
 	}
 }
-
+O/P
+	10,11,...... to 50
